@@ -1,0 +1,60 @@
+body {
+    font-family: 'Roboto Mono',monospace;
+    background-color: #000000;
+    background-size: 60vh;
+    min-height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .header {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+  }
+  .finalResults{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color:#ffffff;
+  }
+  .picture{
+      width: 500px;
+      height: 500px;
+      background-image: url("https://img.lovepik.com/free-png/20210926/lovepik-calculator-icon-free-vector-illustration-material-png-image_401495032_wh1200.png"); 
+      margin-bottom: 10px;
+      border:none;
+      background-size:contain;
+  }
+  .number{
+    background-color: #000000;
+    /* position: absolute; */
+    width: 50%;
+    height: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+  }
+  .number input{
+    width: 50%;
+    margin-bottom: 5px;
+    text-align: center;
+    font-style: italic;
+    cursor: pointer;
+  }
+  .number input:focus{
+    outline: none;
+  }
+  .page-title {
+    color:#ffffff;
+    margin: 0 0 5px;
+  }
+  .page-subtitle {
+    color:#ffffff;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  

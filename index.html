@@ -14,17 +14,15 @@
       Descubra qual a sua média de nota de todas as provas!
     </p>
     <div class="finalResults">
-      <p class="page-subtitle result"> Sua média é:
-      </p>
+      <p id="answerMedia"></p>
     </div>
     <div class="picture">
     </div>
-    <!-- <img src="https://img.lovepik.com/free-png/20210926/lovepik-calculator-icon-free-vector-illustration-material-png-image_401495032_wh1200.png" /> -->
     <div class="number">
-      <input id="firstGrade" type="number" placeholder="Digite a Primeira nota">
-      <input id="secondGrade" type="number" placeholder="Digite a Segunda nota" />
-      <input id="thirdGrade" type="number" placeholder="Digite a Terceira nota" />
-      <input id="fourthGrade" type="number" placeholder="Digite a Quarta nota" />
+      <input id="firstGrade" type="number" step="0.1" placeholder="Digite a Primeira nota">
+      <input id="secondGrade" type="number" step="0.1" placeholder="Digite a Segunda nota" />
+      <input id="thirdGrade" type="number" step="0.1" placeholder="Digite a Terceira nota" />
+      <input id="fourthGrade" type="number" step="0.1" placeholder="Digite a Quarta nota" />
       <button onclick="getMedia()">Calcular média!</button>
     </div>
   </div>

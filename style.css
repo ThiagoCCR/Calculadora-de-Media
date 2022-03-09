@@ -1,10 +1,7 @@
 body {
     font-family: 'Roboto Mono',monospace;
     background-color: #000000;
-    background-size: 60vh;
     min-height: 400px;
-    background-position: center;
-    background-repeat: no-repeat;
   }
   .header {
     text-align: center;
@@ -30,7 +27,6 @@ body {
   }
   .number{
     background-color: #000000;
-    /* position: absolute; */
     width: 50%;
     height: 10px;
     display: flex;
